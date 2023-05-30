@@ -10,21 +10,22 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--dark-color);
+  color: var(--text-color);
+  background-color: var(--white-color);
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: inherit;
+  color: var(--primary-brand-color);
 }
 
 .logo span {
-  color: var(--primary-brand-color);
+  color: var(--dark-color);
 }
 
 .button {
@@ -45,6 +46,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
+  color: var(--dark-color);
 }
 
 .header-menu .link:hover,
@@ -52,6 +54,10 @@ body {
 .header-address .link:hover,
 .header-address .link:focus {
   color: var(--pressed-state-color);
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-address-item a {
@@ -93,18 +99,18 @@ body {
   background-color: var(--pressed-state-color);
 }
 
-#advantages .section-list-item h3 {
+#advantages .section-list-item .list-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 
-#advantages .section-list-item p {
+#advantages .section-list-item .list-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
 }
 
 .section-title {
@@ -114,6 +120,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--dark-color);
 }
 
 #team {
@@ -124,27 +131,27 @@ body {
   background-color: var(--white-color);
 }
 
-#team .section-list-item h3 {
+#team .section-list-item .list-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 
-#team .section-list-item p {
+#team .section-list-item .list-item-text {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--text-color);
 }
 
 .footer {
   background-color: var(--dark-color);
 }
 
-.footer-logo {
+.footer .logo-span {
   color: var(--light-color);
 }
 
@@ -176,14 +183,15 @@ body {
   border-radius: 4px;
 }
 
-#portfolio .section-list-item h2 {
+#portfolio .section-list-item .list-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
 
-#portfolio .section-list-item p {
+#portfolio .section-list-item .list-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
