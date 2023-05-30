@@ -121,7 +121,7 @@ body {
   color: var(--dark-color);
 }
 
-#team {
+.grey-background {
   background-color: var(--light-color);
 }
 
